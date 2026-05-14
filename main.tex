@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+
+% --- Preámbulo (Configuración) ---
+\usepackage[utf8]{inputenc}       % Permite usar tildes y eñes
+\usepackage[spanish]{babel}       % Configura el idioma a español
+\usepackage{amsmath, amssymb}     % Paquetes para símbolos matemáticos
+\usepackage{graphicx}             % Para insertar imágenes
+
+\title{Mi Primer Documento en \LaTeX}
+\author{Tu Nombre}
+\date{\today}
+
+% --- Inicio del Documento ---
+\begin{document}
+
+\maketitle % Imprime el título, autor y fecha
+
+\tableofcontents % Genera el índice automático
+\newpage
+
+\section{Introducción}
+Este es un ejemplo básico de un documento creado en \LaTeX. A diferencia de los editores de texto convencionales, aquí escribimos código que luego se compila para generar un PDF profesional.
+
+\section{Conceptos Básicos}
+En esta sección mostramos algunas funcionalidades útiles:
+
+\subsection{Listas}
+Podemos crear listas fácilmente:
+\begin{itemize}
+    \item Primero, aprender la sintaxis.
+    \item Segundo, practicar la compilación.
+    \item Tercero, organizar el contenido.
+\end{itemize}
+
+\subsection{Matemáticas}
+Una de las mayores potencias de \LaTeX{} es la escritura de fórmulas. Podemos poner ecuaciones en línea como $E = mc^2$ o centradas en su propia línea:
+
+\[
+\int_{a}^{b} x^2 \, dx = \frac{b^3 - a^3}{3}
+\]
+
+\section{Conclusión}
+\LaTeX{} es ideal para documentos académicos, tesis y artículos científicos debido a su excelente gestión de bibliografía y formato.
+
+\end{document}
